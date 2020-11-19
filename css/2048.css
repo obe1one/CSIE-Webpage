@@ -1,0 +1,59 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.container > h1 {
+	font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+.game__board {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center
+	justify-content: space-around;
+
+	position: relative;
+	width: 600px;
+	height: 600px;
+	border: 10px solid gold;
+}
+
+.game__board_row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+	position: relative;
+	width: 600px;
+	height: 150px;
+	margin: auto;
+}
+
+.game__board-border {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	position: relative;
+	width: 140px;
+	height: 140px;
+	border: 1px solid black;
+	margin: auto;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.game__board-block {
+	position: relative;
+	width: 140px;
+	height: 140px;
+	margin: auto;
+	border-radius: 5px;
+}

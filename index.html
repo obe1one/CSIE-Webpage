@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title> B07902046's webpage </title>
+	<link rel='stylesheet' type='text/css' href='css/style.css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src='javascript/scroll.js' type='text/javascript'></script>
+</head>
+<body class='container'>
+	<div id='home'></div>
+	<div class='webIntro'>
+		<div class='introBlock' id='webLogo'>
+			<p style='font-size: 15px; margin-left: 0px'> B07902046's Webpage </p>
+			<p style='font-size: 20px'> 高長聖 | Chang-Sheng Kao </p>
+		</div>
+		<div class='introBlock' id='navContent'>
+			<nav class='introNav'>
+				<a href='#home' class='scrollButton'> Home </a> |
+				<a href='#experience' class='scrollButton'> Experience </a> |
+				<a href='#skills' class='scrollButton'> Skills </a> |
+				<a href='#cv' class='scrollButton'> CV </a>
+			</nav>
+			<div class='menu'>
+				<a><img src='image/menu.png' alt='menu' id='menu'></a>
+			</div>
+		</div>
+	</div>
+	<div class='home' id='home1'>
+		<div class='profile'>
+			<img src='image/self.jpg' alt='self-photo' id='photo'>
+			<p style='font-size: 30px;'> Chang-Sheng Kao </p>
+			<p style='font-size: 20px;'> Department of Computer Science and <br> Information Engineering, <br> National Taiwan University</p>
+			
+			<p style='font-size: 15px;'> External Links (click icon to get information) </p><br>
+			<div class='externalLink'>
+				<div class='icon' id='icon-facebook'>
+					<img src='image/facebook.png' alt='facebook'>
+					<span class='iconInfoTop'> https://www.facebook.com/joh... </span>
+				</div>
+				<div class='icon' id='icon-github'>
+					<img src='image/github.png' alt='github'>
+					<span class='iconInfoTop'> https://github.com/obe1one </span>
+				</div>
+				<div class='icon' id='icon-email'>
+					<img src='image/mail.png' alt='email'>
+					<span class='iconInfoTop' id='icon-msg-email'> b07902046@ntu.edu.tw </span>
+				</div>
+			</div><br>
+			<div class='externalLink'>
+				<div class='icon' id='icon-line'>
+					<img src='image/line.png' alt='line'>
+					<span class='iconInfoBottom' id='icon-msg-line'> ID: johnson30708 </span>
+				</div>
+				<div class='icon' id='icon-phone'>
+					<img src='image/phone.png' alt='phone'>
+					<span class='iconInfoBottom' id='icon-msg-phone'> +886-978950902 </span>
+				</div>
+			</div>
+			<span class='copy-msg' id='copy-msg'> Copied! </span>
+		</div>
+		<div class='biography'>
+			<article>
+				<h1> I'm a CSIE student/computer engineer </h1>
+			</article>
+		</div>
+	</div>
+	<div id='experience'></div>
+	<div class='experience' id='experience1'>
+		<div class='caption'>
+			<h1> Experience </h1>
+		</div>
+		<div class='exp-row'>
+			<div class='exp-block'>
+				<div class='exp-info'>
+					<h3 class='job-title'> Research Assistant </h3>
+					<section class='job-period'>
+						<img src='image/calendar.png' class='exp-calendar' alt='calendar'>
+						2020.2 - 2020.8
+					</section>
+				</div>
+				<div class='job-discription'>
+					<p style='font-weight: bold;'> Content: </p>
+					<ul>
+						<li> Help develop educational website "FreshmanEnglish" </li>
+					</ul>
+					<p style='font-weight: bold;'> Works: </p>
+					<ul>
+						<li> Implement "recorder.js", fulfilling the online recorder on HTML5, and send the audio data to MySQL. </li>
+						<br>
+						<li> Set SDK environment and call Google cloud API "Speech to Text" on back-end. </li>
+					</ul>
+					<a target='_blank' href='https://nlp.csie.org/~b07902046/FreshmanEnglish/student/login.php?location=%2F%7Eb07902046%2FFreshmanEnglish%2Fstudent%2FdoAWLSpeak.php%3Funit_num%3D5'> Relative URL </a>
+				</div><br>
+			</div>
+			<div class='exp-block'>
+				<div class='exp-info'>
+					<h3 class='job-title'> TX auto-trading program </h3>
+					<section class='job-period'>
+						<img src='image/calendar.png' class='exp-calendar' alt='calendar'>
+						2020.1
+					</section>
+				</div>
+				<div class='job-discription'>
+					<p style='font-weight: bold;'> Content: </p>
+					<ul>
+						<li> Build a model that automatically make decision of TX trading. </li>
+					</ul>
+					<p style='font-weight: bold;'> Works: </p>
+					<ul>
+						<li> Analyze daily and minutely TX trading records from 2011.1 to 2019.12 </li><br>
+						<li> Try implementing "Genetic Algorithm" and "RNN" to train the model, best Dev result: return rate = 2.7%. </li>
+					</ul>
+				</div><br>
+			</div>
+		</div><br><br>
+		<div class='exp-row'>
+			<div class='exp-block'>
+				<div class='exp-info'>
+					<h3 class='job-title'> Side Project: 2048 RL </h3>
+					<section class='job-period'>
+						<img src='image/calendar.png' class='exp-calendar' alt='calendar'>
+						2020.7 - 2020.8
+
+					</section>
+				</div>
+				<div class='job-discription'>
+					<p style='font-weight: bold;'> Content: </p>
+					<ul>
+						<li> Use "Reinforcement Learning" technique to train 2048 decision model. </li>
+					</ul>
+					<p style='font-weight: bold;'> Works: </p>
+					<ul>
+						<li> Write a functional 2048 game using Pygame module. </li><br>
+						<li> Implement "Deep Q network" for RL training and fine tuning. </li><br>
+						<li> Average score: 886.94 in 500 rounds. </li>
+					</ul>
+				</div><br>
+			</div>
+			<div class='exp-block'>
+				<div class='exp-info'>
+					<h3 class='job-title'> Challeng-2019 Group member </h3>
+					<section class='job-period'>
+						<img src='image/calendar.png' class='exp-calendar' alt='calendar'>
+						2019.7
+					</section>
+				</div>
+				<div class='job-discription'>
+					<p style='font-weight: bold;'> Content: </p>
+					<ul>
+						<li> Write a Pygame that can be controlled by four different programs in CSIE summer camp. </li>
+					</ul>
+					<p style='font-weight: bold;'> Works: </p>
+					<ul>
+						<li> Implement "MVC + EventMananger" framework. </li><br>
+						<li> Work in view group, mostly making special effect and animations. </li>
+					</ul>
+				</div><br>
+			</div>
+		</div>
+	</div>
+	<div id='skills'></div>
+	<div class='skills' id='skills1'>
+		<div class='caption'>
+			<h1> Skills </h1>
+		</div>
+		<div class='skill-row'>
+			<div class='skill-block'>
+				<img src='image/pytorch.png' alt='pytorch'><br>
+				<caption> Machine Learning: </caption>
+				<ul>
+					<li> PyTorch </li><br>
+					<li> CNN, RNN </li><br>
+					<li> RL: Deep Q Learning </li>
+				</ul>
+			</div>
+			<div class='skill-block'>
+				<img src='image/html.jpg' alt='html'><br>
+				<caption> Front/Back-end: </caption>
+				<ul>
+					<li> HTML, CSS, Javascript </li><br>
+					<li> ReactJS, AngularJS </li><br>
+					<li> SDK environment, Google Cloud API </li><br>
+					<li> MySQL </li>
+				</ul>
+			</div>
+			<div class='skill-block'>
+				<img src='image/linux.png' alt='linux'><br>
+				<caption> Linux server: </caption>
+				<ul>
+					<li> Shell Script </li><br>
+					<li> DNS, DHCP server </li><br>
+					<li> Apache</li><br>
+					<li> Pfsense firewall </li>
+				</ul>
+			</div>
+		</div><br><br>
+		<div class='skill-row'>
+			<div class='skill-block'>
+				<img src='image/github.png' alt='github'><br>
+				<caption> Development Skills: </caption>
+				<ul>
+					<li> MVC+EvMgr framework </li><br>
+					<li> Git, Github </li><br>
+					<li> HackMD </li>
+				</ul>
+			</div>
+			<div class='skill-block'>
+				<img src='image/python.png' alt='python'><br>
+				<caption> Programming Languages: </caption>
+				<ul>
+					<li> Data structure and algoritm implementation </li><br>
+					<li> C/C++: STL library </li><br>
+					<li> Python: PyTorch, Pygame </li>
+				</ul>
+			</div>
+			<div class='skill-block'>
+				<img src='image/pencil.png' alt='pencil'><br>
+				<caption> Others: </caption>
+				<ul>
+					<li> Languages: Chinese, English </li><br>
+					<li> LaTex, Microsoft Office </li>
+				</ul>
+				
+			</div>
+		</div>
+	</div><br>
+	<div id='cv'></div>
+	<div class='cv'>
+		<div class='caption'> CV </div>
+		<a href='image/facebook.png' download="test.png"> URL </a>
+	</div>
+	<script type='text/javascript' src='javascript/main.js'></script>
+</body>
+</html>
