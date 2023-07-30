@@ -40,22 +40,28 @@ externalIcon[1].addEventListener('click', event => {
 
 // email
 externalIcon[2].addEventListener('click', event => {
-	copyTextToClipboard('b07902046@ntu.edu.tw');
+	copyTextToClipboard('cliff.cskao@gmail.com');
 	copyMsgVanishing('copy-msg');
+});
+
+// linkedin
+externalIcon[3].addEventListener('click', event => {
+	var url = 'https://www.linkedin.com/in/chang-sheng-kao-8b21a2250/';
+	window.open(url, '_blank');
 });
 
 // line
-externalIcon[3].addEventListener('click', event => {
-	copyTextToClipboard('johnson30708');
-	copyMsgVanishing('copy-msg');
-});
-
+// externalIcon[3].addEventListener('click', event => {
+// 	copyTextToClipboard('johnson30708');
+// 	copyMsgVanishing('copy-msg');
+// });
+// 
 // phone
-externalIcon[4].addEventListener('click', event => {
-	copyTextToClipboard('+886978950902');
-	copyMsgVanishing('copy-msg');
-
-});
+// externalIcon[4].addEventListener('click', event => {
+// 	copyTextToClipboard('+886978950902');
+// 	copyMsgVanishing('copy-msg');
+// 
+// });
 
 function copyText(message) {
 	var dummy = document.createElement('textarea');
